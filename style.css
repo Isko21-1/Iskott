@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Liter&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+	margin: 0;
+    background-image: url(minimalist\ dark-themed\ food\ background\ with\ a\ transparent\ header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;    
+    background-color: rgb(30, 30, 46);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(30, 30, 46);
+    z-index: 1;
+}
+.a2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.a2:hover{
+    color: rgb(0, 102, 255);
+    opacity: .8;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(0, 102, 255);
+}
+
+.a2-2{
+    color: rgb(0, 102, 255);
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(0, 102, 255);
+    text-decoration: none;
+    font-size: 18PX;
+    margin-right: 50px;
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px 10px;
+    padding-right: 50px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1.8px solid rgb(180, 179, 179);
+    transition: .5s ease;
+    outline: none;
+    color: white;
+}
+input:hover{
+    border-color: rgb(0, 102, 255);
+    border: 2px solid rgb(0, 102, 255);
+    background-color: transparent;
+    color: rgb(0, 102, 255);
+}
+
+input:focus{
+    border-color: rgb(0, 102, 255);
+    border: 2px solid rgb(0, 102, 255);
+    background-color: transparent;
+    color: rgb(0, 102, 255);
+}
+
+.lupa{
+    position: absolute;
+    left: 1110px;
+    top: 36px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.lupa:hover{
+    color: rgb(0, 102, 255);
+    transition: .5s ease;
+}
+
+.reg{
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: rgb(0, 102, 255);
+    background-color: transparent;
+    border-color: rgb(0, 102, 255);
+    box-shadow: 0px 0px 0px 2px rgb(0, 102, 255);
+    font-size: large;
+    cursor: pointer;
+    border:  none;
+    transition: .5s;
+    margin-right:10px ;
+}
+.reg:hover{
+    opacity: .8;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border-color: rgb(0, 102, 255);
+    box-shadow: 0px 0px 0px 2px rgb(0, 102, 255);
+    position: relative;
+    z-index: 0;
+}
+
+.slovo{
+    margin-top: 100px;
+    margin-left: 335px;
+    color: white;
+    font-size: 18px;
+}
+
+.slovo2{
+    margin-left: 240px;
+    color: white;
+    font-size: 18px;
+}
+.slovo2-2{
+    margin-left: 240px;
+    color: white;
+    font-size: 18px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.slider-container {
+    position: relative;
+    width: 90%;
+    max-width: 890px;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 30px;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+.thumbnail-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    gap: 10px;
+}
+.thumbnail {
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.3s ease-in-out;
+    padding: 5px;
+    border-radius: 15px;
+}
+.thumbnail.active {
+    background-color: rgba(91, 90, 90, 0.208);
+    border-radius: 15px;
+}
+
+.science-fiction{
+    text-align: center;
+    display: flex;
+    margin-left: 220px;
+    margin-bottom: 70px;
+}
+
+.science-fiction a{
+    text-decoration: none;
+}
+.science{
+    background-color: rgba(22, 25, 65, 0.793);
+    color: rgb(255, 255, 255);
+    padding: 70px 0px;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 2, 4, 0.292);
+}
+.science:hover{
+    background-color: white;
+    color: rgb(0, 102, 255);
+    transition: .5s;
+}
+.science1:hover{
+    background-color: white;
+    color: rgb(0, 102, 255);
+    transition: .5s;
+}
+.science2:hover{
+    background-color: white;
+    color: rgb(0, 102, 255);
+    transition: .5s;
+}
+
+.science1{
+    background-color: rgba(22, 25, 65, 0.793);
+    color: rgb(255, 255, 255);
+    padding: 70px 0px;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 2, 4, 0.292);
+
+}
+
+.science2{
+    background-color: rgba(22, 25, 65, 0.793);
+    color: rgb(255, 255, 255);
+    padding: 70px 0px;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 2, 4, 0.292);
+}
+
+.science h3{
+    padding:20px 35px;
+    font-size: 15px;
+}
+.science1 h3{
+    padding:20px 65px;
+    font-size: 15px;
+}
+.science2 h3{
+    padding:20px 30px;
+    font-size: 15px;
+}
+
+.action-containar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.action{
+    border-radius: 10px;
+    margin: 0px 30px;
+    padding-bottom: 20px;
+    box-shadow: 0px 2px 2px 3px rgba(0, 2, 4, 0.292);
+    margin-bottom: 20px;
+}
+.action img{
+    border-radius:10px 10px 0px 0px;
+}
+.action .h3{
+    color: white;
+    padding-left: 20px;
+}
+
+.cash-cont{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cash-cont1{
+    padding: 0px 5px;
+    margin-right: 15px;
+}
+
+.cash{
+    color: rgb(170, 170, 170);
+    text-decoration: line-through;
+    
+    padding: 2px 7px;
+
+}
+.cash1{
+    color: rgb(255, 255, 255);
+    
+    padding: 2px 7px;
+}
+.cash2{
+    background-color: rgb(20, 122, 20);
+    color: rgb(0, 255, 0);
+    padding: 2px 7px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.action:hover{
+    opacity: .8;
+    background-color: rgba(255, 255, 255, 0.048);
+}
+.action-button{
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 1px white;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border:  none;
+    font-size: 15px;
+    margin-left: 1105px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.games-content{
+    display: flex;
+    margin-left: 240px;
+}
+
+.games{
+    display: flex;
+    margin: 10px 0px;
+    margin-right: 50px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.games:hover{
+    background-color: rgba(38, 36, 58, 0.658);
+}
+
+.games img{
+    width: 80px;
+    height: 110px;
+    border-radius: 5px;
+}
+
+.games1{
+    margin-left: 20px;
+}
+
+.money{
+    display: flex;
+}
+
+.money h3{
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.sale{
+    background-color: rgb(20, 122, 20);
+    color: rgb(0, 255, 0);
+    padding: 2px 7px;
+    border-radius: 20px;
+}
+
+.sale1{
+    color: rgb(170, 170, 170);
+    text-decoration: line-through;
+}
+
+.sale2{
+    color: white;
+}
+
+.hr1{
+    top: 4010px;
+    height: 600px;
+    right: 560px;
+    position: absolute;
+    border-color: gray;
+}
+
+.hr2{
+    top: 4010px;
+    height: 600px;
+    right: 930px;
+    position: absolute;
+    border-color: gray;
+}
+
+footer{
+    background-color: rgba(29, 29, 33, 0.718);
+    justify-content: space-around;
+    padding-bottom: 1px;
+    padding-top: 5px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 260px;
+}
+
+.info{
+    padding: 0px 120px;
+}
+
+.info p{
+    color: rgb(155, 154, 154);
+}
+
+.icon1{
+    display: flex;
+}
+
+.icon{
+    margin-left: 250px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.icon2{
+    margin-left: 540px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.icon2 img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.a1{
+    color: rgba(130, 128, 128, 0.703);
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.a1:hover{
+    color: rgb(0, 102, 255);
+}
+
+footer i{
+    color: rgba(130, 128, 128, 0.703);
+    margin-right: 10px;
+}
+footer i:hover{
+    color: rgb(2, 61, 149);
+    margin-right: 10px;
+}
+
+.iconn{
+    font-size: 25px;
+}
+
+footer h2{
+    margin-left: 260px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer hr{
+    border-color: rgba(130, 128, 128, 0.703);
+}
+
+.games-conttext{
+    margin-left: 230px;
+    color: white;
+    margin-top:100px;
+}
+
+.games-contents{
+    margin-left: 220px;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.games-contents a{
+    text-decoration: none;
+}
+
+.games-block{
+    color: white;
+    margin: 0px 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 2, 4, 0.292);
+}
+.games-block h3{
+    margin-left: 10px;
+}
+.games-block:hover{
+    opacity: .8;
+    background-color: rgba(255, 255, 255, 0.048);
+}
+
+.games-block img{
+    width: 190px;
+    border-radius:10px;
+}
+.games-block h3{
+    margin-bottom: 40px;
+    
+}
